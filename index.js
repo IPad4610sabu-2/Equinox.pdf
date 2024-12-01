@@ -48,13 +48,13 @@ const checkpoint = async (req, res, next) => {
 app.use(checkpoint);
 
 const routes = [
-    { path: "/", file: "/static/home.html" },
-    { path: "/v", file: "/static/home.html" },
-    { path: "/s", file: "/static/search.html" },
-    { path: "/ut", file: "/static/utils.html" },
-    { path: "/op", file: "/static/settings.html" },
-    { path: "/tos", file: "/static/tos.html" },
-    { path: "/creds", file: "/static/credits.html" }
+    { path: "/home.pdf", file: "/static/home.html" },
+    { path: "/v.pdf", file: "/static/home.html" },
+    { path: "/s.pdf", file: "/static/search.html" },
+    { path: "/ut.pdf", file: "/static/utils.html" },
+    { path: "/op.pdf", file: "/static/settings.html" },
+    { path: "/tos.pdf", file: "/static/tos.html" },
+    { path: "/creds.pdf", file: "/static/credits.html" }
 ];
 
 routes.forEach(route => {
